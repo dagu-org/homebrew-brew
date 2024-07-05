@@ -1,23 +1,11 @@
-# Brew
+# Homebrew Packaging for the Dagu
 
-Homebrew formula for installing Dagu tools.
-
-## How To Use
-
-Add repository:
-
+Install the Dagu with
 ```
-brew tap dagu-dev/brew
-```
+$ brew install dagu-dev/brew/dagu
 
-Install [Dagu](https://github.com/dagu-dev/dagu):
+OR
 
+$ brew tap dagu-dev/brew && brew install dagu
 ```
-brew install dagu
-```
-
-Upgrade the Dagu to the latest version:
-
-```
-brew upgrade dagu
-```
+For more information, visit https://github.com/dagu-dev/dagu
